@@ -21,3 +21,9 @@
 ## Jawaban
 
 1. Akan terjadi error, karena array yang dideklarasikan bertipe integer, yang mana jika valuenya diisi _5.0_ dan _7.5_, program akan error karena tidak ketidak selarasan value dan tipe data
+2. Modifikasi untuk nomor 2
+
+    ```java
+        int [] bil = {5, 13, -7, 17};
+    ```
+
