@@ -27,3 +27,14 @@
         int [] bil = {5, 13, -7, 17};
     ```
 
+3. output dari program tetap sama yaitu:
+
+    ```text
+    5
+    13
+    -7
+    17
+    ```
+
+    maksud Perulangan for pada nomor 3 berfungsi untuk menampilkan semua elemen array bil secara otomatis. Ia dimulai dari indeks 0 hingga 3, dan setiap kali perulangan berjalan, nilai i bertambah satu sehingga program mencetak bil[i] tanpa perlu menulis perintah System.out.println satu per satu.
+
