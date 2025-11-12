@@ -99,4 +99,5 @@
 ## Jawaban
 
 1. Tidak terjadi perubahan, karena value _nilaiAkhir.length_ pada kondisi for sama dengan kondisi sebelumnya yaitu = _10_, maka output ketika program dijalankan akan tetap sama.
-2.
+2. maksud _i < nilaiAkhir.length_ adalah suatu kondisi apabila variable _i_ kurang dari _nilaiAkhir.length_ (panjang data array) bernilai _true_ maka akan menjalankan statement dan akan mengulangi proses tersebut hingga kondisi bernilai false
+3. 
