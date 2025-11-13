@@ -101,4 +101,16 @@
 1. Tidak terjadi perubahan, karena value _nilaiAkhir.length_ pada kondisi for sama dengan kondisi sebelumnya yaitu = _10_, maka output ketika program dijalankan akan tetap sama.
 2. maksud _i < nilaiAkhir.length_ adalah suatu kondisi apabila variable _i_ kurang dari _nilaiAkhir.length_ (panjang data array) bernilai _true_ maka akan menjalankan statement dan akan mengulangi proses tersebut hingga kondisi bernilai false
 3. alur kode program ini adalah sebagai berikut: setelah pengguna memasukkan input nilai akhir, kemudian program akan melakukan perulangan sebanyak panjang data array _nilaiAkhir_ karena inisialisasi nya bernilai 0 dan kondisinya menggunakan "kurang dari", apabila kondisi bernilai true maka statementnya adalah sebuah _if_ atau kondisi, kondisi tersebut ialah jika value _nilaiAkhir[i]_ lebih dari 70 maka tampilkan output _"Mahasiswa ke-" + i + " lulus!"_. Jadi sistem hanya akan menampilkan nilaiAkhir mahasiswa yang lebih dari 70/lulus saja
-4. 
+4. berikut hasil kode yang telah dimodifikasi:
+
+    ```java
+    for (int i = 0; i < nilaiAkhir.length; i++){
+        if (nilaiAkhir[i] > 70){
+            System.out.println("Mahasiswa ke-" + i + " lulus!");
+        }
+        //menambahkab kondisi else dari nilaiAkhir[i] > 70
+        else{
+            System.out.println("Mahasiswa ke-" + i + " tidak lulus!");
+        }
+    }
+    ```

@@ -11,6 +11,10 @@ public class ArrayNilai24 {
             if (nilaiAkhir[i] > 70){
                 System.out.println("Mahasiswa ke-" + i + " lulus!");
             }
+            //menambahkab kondisi else dari nilaiAkhir[i] > 70
+            else{
+                System.out.println("Mahasiswa ke-" + i + " tidak lulus!");
+            }
         }
         sc.close();
     }
