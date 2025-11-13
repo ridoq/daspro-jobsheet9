@@ -163,7 +163,7 @@
 2. Berikut hasil modifikasi nomor 2:
 
     ```java
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int jumlahMhsLulus = 0, jumlahMhsTdkLulus = 0;
         double totalMhsLulus = 0,totalMhsTdkLulus = 0, rata2MhsLulus, rata2MhsTdkLulus;
@@ -190,3 +190,47 @@
         sc.close();
     }
     ```
+
+---
+
+# Percobaan 4 : Searching
+
+---
+## Soal
+
+1. Jelaskan maksud dari statement break; pada baris ke-10 kode program percobaan 4 di atas. 
+2. Modifikasi kode program pada percobaan 4 di atas sehingga program dapat menerima input berupa banyaknya elemen array nilai, isi array, dan sebuah nilai (key) yang ingin dicari. Lalu cetak ke layar indeks posisi elemen dari nilai (key) yang dicari. Contoh hasil program:
+
+    ```text
+        Masukkan banyaknya nilai yang akan diinput : 6
+        Masukkan nilai mahasiswa ke-1 : 80
+        Masukkan nilai mahasiswa ke-2 : 90
+        Masukkan nilai mahasiswa ke-3 : 75
+        Masukkan nilai mahasiswa ke-4 : 83
+        Masukkan nilai mahasiswa ke-5 : 78
+        Masukkan nilai mahasiswa ke-6 : 92
+        Masukkan nilai yang ingin dicari : 78
+        
+        Nilai 78 ketemu, merupakan nilai mahasiswa ke-5
+    ```
+
+3. Modifikasi program pada percobaan 4 di atas, sehingga program akan memberikan pesan "Nilai yang dicari tidak ditemukan" jika nilai yang dicari (key) tidak ada di dalam array. Contoh tampilan program sebagai berikut: 
+
+    ```text
+        Masukkan banyaknya nilai yang akan diinput : 6
+        Masukkan nilai mahasiswa ke-1 : 80
+        Masukkan nilai mahasiswa ke-2 : 90
+        Masukkan nilai mahasiswa ke-3 : 75
+        Masukkan nilai mahasiswa ke-4 : 83
+        Masukkan nilai mahasiswa ke-5 : 78
+        Masukkan nilai mahasiswa ke-6 : 92
+        Masukkan nilai yang ingin dicari : 85
+        
+        Nilai yang dicari tidak ditemukan
+    ```
+
+---
+## Jawaban
+
+1. break pada kode program percobaan 4 berfungsi supaya perulangan berhenti apabila key sama dengan nilai mahasiswa yang dicari
+2. 
