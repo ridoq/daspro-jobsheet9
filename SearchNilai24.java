@@ -16,13 +16,19 @@ public class SearchNilai24 {
         for (int i = 0; i < arrNilai.length; i++) {
             if (key == arrNilai[i]) {
                 hasil = i;
+                System.out.println();
+                System.out.println("Nilai " + key + " ketemu, merupakan nilai mahasiswa ke-" + (hasil + 1));
+                System.out.println();
                 break;
             }
         }
         
-        System.out.println();
-        System.out.println("Nilai " + key + " ketemu, merupakan nilai mahasiswa ke-" + (hasil + 1));
-        System.out.println();
+        if (hasil == 0) {
+            System.out.println();
+            System.out.println("Nilai yang dicari tidak ditemukan");
+            System.out.println();
+        }
+        
         sc.close();
     }
 }
