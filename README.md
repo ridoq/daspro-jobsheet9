@@ -41,7 +41,7 @@
 4. output dari program tetap sama yaitu menampilkan array indeks 0-3 namun setelah menampilkan output tersebut terdapat error _ArrayIndexOutOfBoundsException_ hal ini dikarenakan index array yang ditampilkan melebihi panjang data array
 ---
 
-# Percobaan 1 : Studi Kasus Nilai Mahasiswa di SIAKAD - Meminta Inputan Pengguna untuk Mengisi Elemen Array 
+# Percobaan 2 : Studi Kasus Nilai Mahasiswa di SIAKAD - Meminta Inputan Pengguna untuk Mengisi Elemen Array 
 
 ---
 ## Soal
@@ -114,3 +114,50 @@
         }
     }
     ```
+
+---
+
+# Percobaan 3 : Studi Kasus Nilai Mahasiswa di SIAKAD - Melakukan Operasi Aritmatika terhadap Elemen Array 
+
+---
+## Soal
+
+1. Modifikasi kode program pada praktikum percobaan 3 di atas (ArrayRataNilai24.java) agar program dapat menampilkan banyaknya mahasiswa yang lulus, yaitu mahasiswa yang memiliki lebih besar dari 70 (>70).
+2. Modifikasi program pada praktikum percobaan 3 di atas (ArrayRataNilaiXX.java) sehingga program menerima jumlah elemen berdasarkan input dari pengguna dan mengeluarkan output seperti berikut ini:
+
+    ```text
+        Masukkan jumlah mahasiswa : 5
+        Masukkan nilai mahasiswa ke-1 : 80
+        Masukkan nilai mahasiswa ke-2 : 60
+        Masukkan nilai mahasiswa ke-3 : 90
+        Masukkan nilai mahasiswa ke-4 : 85
+        Masukkan nilai mahasiswa ke-5 : 65
+        Rata-rata nilai lulus = 85.0
+        Rata-rata nilai tidak lulus = 62.5
+    ```
+
+---
+## Jawaban
+
+1. Berikut hasil modifikasi nomor 1:
+
+    ```java
+    //menambahkan deklarasi variable baru
+    int jumlahMhsLulus = 0;
+    //
+
+    for(int i = 0; i < nilaiMhs.length; i++){
+            //juga menambahkan kondisi pada perulangan kedua
+            if (nilaiMhs[i] > 70) {
+                jumlahMhsLulus += 1;
+            }
+            //
+            total += nilaiMhs[i];
+        }
+
+    //yang terakhir adalah menampilkan jumlah mahasiswa yang lulus
+    System.out.println("Jumlah mahasiswa yang lulus (nilai lebih dari 70) = " + jumlahMhsLulus);
+    //
+    ```
+
+2. 
